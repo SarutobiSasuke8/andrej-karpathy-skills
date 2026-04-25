@@ -4,7 +4,19 @@
 >
 > Follow me on X: [https://x.com/jiayuan_jy](https://x.com/jiayuan_jy)
 
-A single `CLAUDE.md` file to improve Claude Code behavior, derived from [Andrej Karpathy's observations](https://x.com/karpathy/status/2015883857489522876) on LLM coding pitfalls.
+A collection of behavioral skills to improve LLM-assisted coding, derived from [Andrej Karpathy's observations](https://x.com/karpathy/status/2015883857489522876) on LLM coding pitfalls.
+
+## Skills
+
+See **[SKILLS.md](./SKILLS.md)** for the full catalog. Quick reference:
+
+| Skill | Description |
+|-------|-------------|
+| [karpathy-guidelines](./skills/karpathy-guidelines/SKILL.md) | Think Before Coding, Simplicity First, Surgical Changes, Goal-Driven Execution |
+| [testing-first](./skills/testing-first/SKILL.md) | Write a failing test before fixing bugs or adding features |
+| [pr-hygiene](./skills/pr-hygiene/SKILL.md) | Small, focused PRs with commit messages that explain why |
+| [api-design](./skills/api-design/SKILL.md) | Stable, minimal, unsurprising interfaces |
+| [security-defaults](./skills/security-defaults/SKILL.md) | Validate at boundaries, no secrets in code, least privilege, encode for the sink |
 
 English | [简体中文](./README.zh.md)
 
