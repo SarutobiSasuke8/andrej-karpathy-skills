@@ -5,15 +5,15 @@
     "name": "forrestchang"
   },
   "metadata": {
-    "description": "Behavioral guidelines to reduce common LLM coding mistakes, derived from Andrej Karpathy's observations",
-    "version": "1.0.0"
+    "description": "Behavioral skills to reduce common LLM coding mistakes, derived from Andrej Karpathy's observations",
+    "version": "1.1.0"
   },
   "plugins": [
     {
       "name": "andrej-karpathy-skills",
       "source": "./",
       "description": "Behavioral guidelines to reduce common LLM coding mistakes: Think Before Coding, Simplicity First, Surgical Changes, Goal-Driven Execution",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "author": {
         "name": "forrestchang"
       },
@@ -23,7 +23,29 @@
         "coding",
         "karpathy"
       ],
-      "category": "workflow"
+      "category": "workflow",
+      "skills": [
+        {
+          "name": "karpathy-guidelines",
+          "description": "Core LLM coding guidelines: Think Before Coding, Simplicity First, Surgical Changes, Goal-Driven Execution"
+        },
+        {
+          "name": "testing-first",
+          "description": "Write a failing test before fixing bugs or adding features"
+        },
+        {
+          "name": "pr-hygiene",
+          "description": "Keep pull requests small, focused, and easy to review"
+        },
+        {
+          "name": "api-design",
+          "description": "Design stable, minimal, unsurprising APIs"
+        },
+        {
+          "name": "security-defaults",
+          "description": "Apply secure defaults when handling data, credentials, or user input"
+        }
+      ]
     }
   ]
 }
